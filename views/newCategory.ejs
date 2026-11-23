@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Category</title>
+</head>
+<body>
+    <a href="/items/new">Add Item</a>
+    <a href="/">Back to Categories</a>
+    <form action="/categories" method="POST">
+        <label for="name">Enter name of new category </label>
+        <input
+            name="name"
+            type="text" 
+            required
+            id="name"
+        >
+        <label for="description">Enter description </label>
+        <textarea name="description" id="description" ></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
